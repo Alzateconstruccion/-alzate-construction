@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Alzate Construction LLC - concrete, grading, excavation, retaining walls, fencing, asphalt and yard cleanup in Colorado Springs.">
+<title>Alzate Construction LLC</title>
+
+<style>
+:root{
+  --bg:#f4f1ea;
+  --dark:#172027;
+  --orange:#e47b21;
+  --white:#fff;
+  --text:#171717;
+  --muted:#666;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+.top{
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:#172027;
+  color:white;
+  padding:12px 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+}
+.top strong{font-size:15px}
+.top a{
+  color:white;
+  background:var(--orange);
+  text-decoration:none;
+  padding:10px 14px;
+  border-radius:30px;
+  font-weight:bold;
+}
+.hero{
+  min-height:70vh;
+  padding:50px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.70)),
+    url('Imagen 6.JPG') center/cover no-repeat;
+}
+.hero h1{
+  font-size:clamp(42px,9vw,90px);
+  line-height:.95;
+  margin:0 0 15px;
+}
+.hero h3{
+  font-size:24px;
+  margin:0 0 12px;
+}
+.hero p{
+  max-width:750px;
+  margin:0 auto 25px;
+  font-size:18px;
+}
+.buttons{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.btn{
+  display:inline-block;
+  padding:14px 20px;
+  border-radius:10px;
+  font-weight:bold;
+  text-decoration:none;
+}
+.orange{background:var(--orange);color:white}
+.white{background:white;color:#111}
+.wrap{
+  max-width:1180px;
+  margin:auto;
+  padding:60px 20px;
+}
+h2{
+  font-size:clamp(32px,5vw,48px);
+  margin:0 0 8px;
+}
+.lead{color:var(--muted);font-size:17px}
+.services{
+  margin-top:25px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:14px;
+}
+.card{
+  background:white;
+  padding:22px;
+  border-radius:14px;
+  border:1px solid #e4ddd0;
+}
+.card b{
+  display:block;
+  margin-bottom:6px;
+}
+.feature{
+  background:var(--dark);
+  color:white;
+  padding:55px 20px;
+}
+.feature div{
+  max-width:1180px;
+  margin:auto;
+}
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:9px;
+  margin-top:25px;
+}
+.photo{
+  border:0;
+  padding:0;
+  border-radius:10px;
+  overflow:hidden;
+  aspect-ratio:1/1;
+  cursor:pointer;
+  background:#ddd;
+}
+.photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.cta{
+  margin-top:50px;
+  background:var(--dark);
+  color:white;
+  padding:30px;
+  border-radius:18px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:20px;
+}
+footer{
+  background:#0d1318;
+  color:#ddd;
+  text-align:center;
+  padding:30px 15px;
+  line-height:1.7;
+}
+.lightbox{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.94);
+  z-index:100;
+  align-items:center;
+  justify-content:center;
+  padding:15px;
+}
+.lightbox.open{display:flex}
+.lightbox img{
+  max-width:96vw;
+  max-height:90vh;
+}
+.close{
+  position:absolute;
+  right:15px;
+  top:5px;
+  font-size:42px;
+  color:white;
+  background:none;
+  border:0;
+}
+@media(max-width:800px){
+  .gallery{grid-template-columns:repeat(2,1fr)}
+  .hero{min-height:62vh}
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+<strong>ALZATE CONSTRUCTION LLC</strong>
+<a href="tel:+17193100317">Call (719) 310-0317</a>
+</div>
+
+<header class="hero">
+<div>
+<h1>ALZATE<br>CONSTRUCTION LLC</h1>
+<h3>Quality Work. Built to Last.</h3>
+<p>Construction, concrete and site work for residential and commercial projects in Colorado Springs and surrounding areas.</p>
+
+<div class="buttons">
+<a class="btn orange" href="tel:+17193100317">Call Now</a>
+<a class="btn white" href="sms:+17193100317?body=Hi%20Alzate%20Construction%2C%20I%20would%20like%20a%20free%20estimate.">Get a Free Estimate</a>
+</div>
+</div>
+</header>
+
+<section class="wrap">
+<h2>Our Services</h2>
+<p class="lead">Professional construction and site work for residential and commercial projects.</p>
+
+<div class="services">
+<div class="card"><b>Concrete Work</b>Concrete slabs, flatwork and general concrete construction.</div>
+<div class="card"><b>Patios</b>Concrete patios and outdoor living areas.</div>
+<div class="card"><b>Driveways</b>New driveways, extensions and repairs.</div>
+<div class="card"><b>Sidewalks & Walkways</b>Sidewalks, paths, curbs and access areas.</div>
+<div class="card"><b>Foundations</b>Concrete foundations and structural support work.</div>
+<div class="card"><b>Retaining Walls</b>Retaining walls for landscaping, grading and soil retention.</div>
+<div class="card"><b>Fencing</b>Fence installation, replacement and repair.</div>
+<div class="card"><b>Yard Cleanup</b>Property cleanup and debris removal.</div>
+<div class="card"><b>Site Preparation & Grading</b>Land grading, leveling and preparation.</div>
+<div class="card"><b>Road Preparation</b>Base preparation and grading for roads and access areas.</div>
+<div class="card"><b>Excavation & Earthwork</b>Excavation, trenching and earth-moving work.</div>
+<div class="card"><b>Asphalt Work</b>Asphalt preparation and related construction work.</div>
+</div>
+</section>
+
+<section class="feature">
+<div>
+<h2>Site Preparation & Grading</h2>
+<p>We prepare streets, level land, move material and shape sites for road, concrete and property-development projects.</p>
+</div>
+</section>
+
+<section class="wrap">
+<h2>Our Work</h2>
+<p class="lead">Tap any photo to view it larger.</p>
+
+<div class="gallery">
+
+<button class="photo" onclick="show(this)"><img src="Imagen 1.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="Imagen 2.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="Imagen 3.JPG" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="Imagen 4.JPG" alt="Alzate Construction project"></button>
+
+<button class="photo" onclick="show(this)"><img src="Imagen 5.JPG" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="Imagen 6.JPG" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="Imagen 7.JPG" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="Imagen 8.jpeg" alt="Alzate Construction project"></button>
+
+<button class="photo" onclick="show(this)"><img src="IMG_3200.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_3201.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_3202.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_3203.jpeg" alt="Alzate Construction project"></button>
+
+<button class="photo" onclick="show(this)"><img src="IMG_3204.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_3205.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_3206.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_3207.jpeg" alt="Alzate Construction project"></button>
+
+<button class="photo" onclick="show(this)"><img src="IMG_3208.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_3209.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_3210.jpeg" alt="Alzate Construction project"></button>
+<button class="photo" onclick="show(this)"><img src="IMG_2932.jpeg" alt="Alzate Construction project"></button>
+
+</div>
+
+<div class="cta">
+<div>
+<h2>Ready to Start Your Project?</h2>
+<p>Call or text today to request a free estimate.</p>
+</div>
+
+<div class="buttons">
+<a class="btn orange" href="tel:+17193100317">Call (719) 310-0317</a>
+<a class="btn white" href="sms:+17193100317?body=Hi%20Alzate%20Construction%2C%20I%20would%20like%20a%20free%20estimate.">Text for Estimate</a>
+</div>
+</div>
+
+</section>
+
+<footer>
+<strong>ALZATE CONSTRUCTION LLC</strong><br>
+Concrete • Grading • Asphalt • Excavation • Retaining Walls • Fencing • Yard Cleanup<br>
+(719) 310-0317
+</footer>
+
+<div id="lightbox" class="lightbox" onclick="if(event.target.id==='lightbox')this.classList.remove('open')">
+<button class="close" onclick="document.getElementById('lightbox').classList.remove('open')">×</button>
+<img id="big" alt="Project photo">
+</div>
+
+<script>
+function show(btn){
+ document.getElementById('big').src=btn.querySelector('img').src;
+ document.getElementById('lightbox').classList.add('open');
+}
+</script>
+
+</body>
+</html>
